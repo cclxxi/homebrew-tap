@@ -1,25 +1,25 @@
 class Stevedore < Formula
   desc "A super-lightweight TUI for monitoring Docker containers and logs"
   homepage "https://github.com/cclxxi/stevedore"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cclxxi/stevedore/releases/download/v0.1.0/stevedore-aarch64-apple-darwin.tar.xz"
-      sha256 "74518c18abe369b46b722dccc574bed266ed7db3d585bd71145220aa0754ce4f"
+      url "https://github.com/cclxxi/stevedore/releases/download/v0.2.0/stevedore-aarch64-apple-darwin.tar.xz"
+      sha256 "18fc1db1bbd856755c18447e7aebe5aefbb3b5fcff9b2e7ed3c93fa55fa84674"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cclxxi/stevedore/releases/download/v0.1.0/stevedore-x86_64-apple-darwin.tar.xz"
-      sha256 "f06d5c8907d1c7e0656f5e4128c4b718fa4e624205e66c06f67680bc173e42a5"
+      url "https://github.com/cclxxi/stevedore/releases/download/v0.2.0/stevedore-x86_64-apple-darwin.tar.xz"
+      sha256 "ac7d80779698a7ad233df7f04c4d32054c007ea0db3a0cf472065ffba37c9e42"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/cclxxi/stevedore/releases/download/v0.1.0/stevedore-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5a323b9b32161aeed3ef9b2318b558c7fa2d920b27d3ac400a680b534d0032de"
+      url "https://github.com/cclxxi/stevedore/releases/download/v0.2.0/stevedore-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "7db3986466347a802dfc315760f349578414425ea7db0bfb95e1e9fd37ae3f21"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cclxxi/stevedore/releases/download/v0.1.0/stevedore-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "de3a344abba722ec76b058f2f4c7a040dfa92fe147d7d53077c1358a9773c8fa"
+      url "https://github.com/cclxxi/stevedore/releases/download/v0.2.0/stevedore-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d8eeb07a093b65eed2d7115fb4965cc9d5f07a8a471e6ab14a213e528f8227db"
     end
   end
   license "GPL-3.0-or-later"
